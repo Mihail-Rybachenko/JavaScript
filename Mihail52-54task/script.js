@@ -1,0 +1,13 @@
+let name = "abcde";
+alert("52#1 "+ name[0] +  name[2] +  name[4]);
+alert('52#2 ' + name[4] + name[3] + name[2] + name[1] + name[0]);
+let str = 'abcde';
+num = 0;
+alert('52#3 ' + str[num]);
+let str1 = 'Mirius';
+let str0 = str1.length - 1;
+let str00 = str1.length - 2;
+let str000 = str1.length - 3;
+alert('54#1 '+ str1[str0]);
+alert('54#2 '+ str1[str00]);
+alert('54#3 '+ str1[str000]);
