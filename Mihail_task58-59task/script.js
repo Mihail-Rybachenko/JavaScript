@@ -1,0 +1,11 @@
+let num = 47;
+num = num += 7;
+num = num -= 18;
+num = num *= 10;
+num = num /= 15;
+alert('58#1 ' + num);
+let num1 = 10;
+num = num1++;
+num = num1++;
+num = num1--;
+alert('59#1 ' + num1);
