@@ -1,0 +1,14 @@
+"use strict";
+let arr = [];
+arr[3] = 'a';
+arr[8] = 'b';
+alert(arr.length);
+let arr1 = [];
+arr1.push(1);
+arr1.push(2);
+arr1.push(3);
+alert(arr1);
+let arr2 = [1, 2, 3];
+arr2.push(4);
+arr2.push(5);
+alert(arr2);
