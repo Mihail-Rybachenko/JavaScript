@@ -1,0 +1,15 @@
+"use strict";
+let arr = [1, 2, 3];
+arr[0]++;
+arr[1]++;
+arr[2]++;
+alert(arr);
+let arr1 = [];
+arr1[0]=1;
+arr1[1]=2;
+arr1[2]=3;
+alert(arr1);
+let arr2 = [1, 2, 3];
+arr2[3] = 4;
+arr2[4] = 5;
+alert(arr2);  
