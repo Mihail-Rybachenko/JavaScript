@@ -1,0 +1,10 @@
+"use strict";
+let arr = [1, 2, 3];
+alert(arr[0]);
+alert(arr[1]);
+alert(arr[2]);
+let arr1 = [1, 2, 3];
+alert(arr1[0] + arr1[1] + arr1[2]);
+let arr2 = ['a', 'b', 'c', 'd'];
+alert(arr2[0] + "+" + arr2[1] + "+" + arr2[2] + "+" + arr2[3]);
+console.log(arr2[0] + "+" + arr2[1] + "+" + arr2[2] + "+" + arr2[3]);
