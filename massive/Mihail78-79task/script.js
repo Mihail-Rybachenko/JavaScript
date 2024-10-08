@@ -1,0 +1,13 @@
+"use strict";
+let arr = ['a', 'b', 'c', 'd', 'e'];
+delete arr[0];
+delete arr[1];
+alert(arr.length);
+let arr1 = [1, 2, 3, 4, 5];
+console.log(arr1[arr1.length - 1]);
+let arr2 = [1, 2, 3, 4, 5];
+console.log(arr2[0] + arr2[1] + arr2[2] + arr2[3] + arr2[4]);
+let arr3 = [1, 2, 3, 4, 5];
+console.log(arr3.length);
+let arr4 = [1, 2, 3, 4, 5];
+console.log(arr4.length);
