@@ -1,5 +1,5 @@
 "use strict";
-console.log('172#1');
+console.log('173#1');
 let arr = [];
 for (let i = 0; i < 3; i++) {
     arr[i] = []; 
@@ -9,7 +9,7 @@ for (let i = 0; i < 3; i++) {
     }
 }
 console.log(arr);
-console.log('172#2');
+console.log('173#2');
 let arr1 = [];
 
 for (let i = 0; i < 3; i++) {
@@ -21,7 +21,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 console.log(arr1);
-console.log('172#3');
+console.log('173#3');
 let arr2 = [];
 for (let i = 0; i < 3; i++) {
     arr2[i] = []; 
