@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihail_JavaScript</title>
+</head>
+<body>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        li:hover {
+            background-color: #f0f0f0;
+        }
+
+        i {
+            color: gray;
+            font-style: italic;
+        }
+    </style>
+<ul id="list">
+    <li>Item <i>italic</i> item</li>
+    <li>Item <i>italic</i> item</li>
+    <li>Item <i>italic</i> item</li>
+</ul>
+
+<script>
+    const list = document.querySelector('#list');
+
+    list.addEventListener('click', function (event) {
+        
+        const li = event.target.closest('li');
+
+        
+        if (li) {
+            li.innerHTML += '!';
+        }
+    });
+</script>
+    <script src="script.js?v=1.5"></script>
+</body>
+</html>

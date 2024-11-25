@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihail_JavaScript</title>
+</head>
+<body>
+
+    <script>
+        // #1
+        (function() {
+            let str1 = 'переменная модуля';
+            let str2 = 'переменная модуля';
+            let str3 = 'переменная модуля';
+            
+            function func1() {
+                alert('функция модуля 1');
+            }
+            function func2() {
+                alert('функция модуля 2');
+            }
+            function func3() {
+                alert('функция модуля 3');
+            }
+
+            
+            window.exportedStr = str1; 
+            window.exportedFunc1 = func1; 
+            window.exportedFunc2 = func2; 
+        })();
+
+       
+        console.log(exportedStr); 
+        exportedFunc1(); // 
+        exportedFunc2(); 
+    </script>
+
+</body>
+</html>

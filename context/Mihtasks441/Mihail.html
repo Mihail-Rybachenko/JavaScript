@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihail_JavaScript</title>
+</head>
+<body>
+    <input id="elem" value="hello">
+
+    <script>
+        let elem = document.getElementById('elem');
+
+        function func(name, surname) {
+            console.log(this.value + ', ' + name + ' ' + surname);
+        }
+
+    
+        let boundFunc = func.bind(elem);
+
+       
+        boundFunc('John', 'Smit');  
+        boundFunc('Eric', 'Luis');  
+    </script>
+
+    <script src="script.js?v=1.5"></script>
+</body>
+</html>
